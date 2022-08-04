@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+body {
+  background-color: #000;
+  color: #fafafa;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  display: inline-block;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+a:hover {
+  transition: 0.3s linear;
+  color: rgb(29, 131, 26);
+}
+
+.avatar {
+  width: 200px;
+  height: 227px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: flex-end;
+}
+
+@media (max-width: 600px) {
+  .info {
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+  }
+}
+
+.info-text {
+  margin-bottom: 50px;
+  margin-left: 40px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.info p {
+  display: inline-block;
+  color: #86898f;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+
+.container {
+  max-width: 750px;
+  margin: 0px auto;
+  
+}
+
+.bg-greyfirst {
+  background: #2b2a29;
+}
+
+.bg-greysecond {
+  background: #2b2a29;
+}
+
+.bg-greythird {
+  background: #2b2a29;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #ffffff;
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(8, 107, 5);
+  color: rgb(0, 0, 0);
+  padding: 15px 10px 10px;
+  outline: none;
+  font-family: inherit;
+  border-radius: 5px;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+  margin-right: 0;
+}
+
+.btn {
+  background: #961d1d;
+  margin-top: 10px;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: rgb(128, 125, 125);
+  opacity: 0.9;
+  transition-duration: 0.4s;
+}
+
+.social a {
+  vertical-align: middle;
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 24px;
+  padding: 6px;
+  color: #000;
+}
+.social a:hover {
+  box-shadow: 2px 5px 10px rgba(255, 255, 255, 0.25),
+    1px 2px 2px rgba(255, 255, 255, 0.22);
+  transition-duration: 0.4s;
+}
+.github a:hover {
+  background: #191919;
+  color: #fff;
+}
+.facebook a:hover {
+  background: #3b5998;
+  color: #fff;
+}
+.linkedin a:hover {
+  background: #0e76a8;
+  color: #fff;
+}
+.telegram a:hover {
+  background: #249bd7;
+  color: #fff;
+}
+
+.facebook {
+  padding: 15px 15px 10px 10px;
+}
+
+.linkedin {
+  padding: 15px 15px 15px;
+}
+.w3c {
+  margin-top: 70px;
+  text-align: center;
+}
